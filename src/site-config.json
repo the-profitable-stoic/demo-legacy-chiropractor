@@ -1,0 +1,524 @@
+{
+  "business": {
+    "name": "Legacy Chiropractor",
+    "phone": "555-chi-r94",
+    "category": "chiropractor",
+    "city": "Boulder",
+    "state": "CO"
+  },
+  "design": {
+    "preset": {
+      "id": "chiropractor-heritage-craft",
+      "categoryGroup": "chiropractor",
+      "name": "Heritage Craft",
+      "recipeFile": "chiropractor/heritage-craft.astro",
+      "colors": {
+        "primary": "#3A6B55",
+        "primaryDark": "#234033",
+        "primaryLight": "#bacbc4",
+        "secondary": "#315b48",
+        "accent": "#3A6B55",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#315b48",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "chiropractor/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Boulder's Trusted Chiropractic Care",
+      "heroSubline": "Personalized chiropractic solutions to keep Boulder active. Serving our community with evidence-based techniques for lasting relief.",
+      "aboutTitle": "Our Boulder Chiropractic Legacy",
+      "aboutText": [
+        "Founded in 2012, Legacy Chiropractor has been dedicated to helping Boulder residents achieve optimal spinal health. Our founder, Dr. Emily Hart, recognized the need for holistic care in this active mountain community.",
+        "We combine modern chiropractic techniques with personalized treatment plans. Whether you're a trail runner dealing with repetitive stress or an office worker with postural strain, we adapt to your lifestyle.",
+        "Proud supporters of Boulder County's health initiatives, we regularly volunteer at local running events and youth sports programs to promote spinal wellness."
+      ],
+      "valueProps": [
+        {
+          "title": "Altitude-Aware Care",
+          "description": "Specialized adjustments accounting for Boulder's high elevation and its effects on joint pressure."
+        },
+        {
+          "title": "Active Lifestyle Focus",
+          "description": "Treatment plans designed for Boulder's outdoor enthusiasts and weekend warriors."
+        },
+        {
+          "title": "Local Climate Consideration",
+          "description": "Addressing how Boulder's dry air and temperature swings impact musculoskeletal health."
+        },
+        {
+          "title": "Community-Connected",
+          "description": "Deeply invested in Boulder's wellness through sponsorships and educational workshops."
+        }
+      ],
+      "ctaHeadline": "Start Your Healing Journey Today",
+      "ctaSubline": "Schedule an appointment to experience chiropractic care tailored to Boulder's active lifestyle."
+    },
+    "services": [
+      {
+        "slug": "sports-injury-recovery",
+        "name": "Sports Injury Recovery",
+        "shortDescription": "Specialized care for Boulder athletes recovering from climbing, running, or cycling injuries.",
+        "description": "Boulder's rugged terrain and active population demand specialized sports injury care. We treat common local injuries including runner's knee from the Boulder Creek Path, shoulder strains from Flagstaff climbing, and cycling-related lower back pain. Our approach combines chiropractic adjustments with soft tissue therapy to restore mobility.\n\nTreatment begins with a gait or movement analysis, often using video for outdoor athletes. We then create customized rehabilitation plans incorporating red rock terrain simulations. For cyclists, we address the unique postural demands of Boulder's steep hill climbs. Recovery timelines account for altitude's impact on tissue healing.",
+        "process": [
+          "Step 1: Detailed injury history including activity specifics",
+          "Step 2: Biomechanical analysis using local terrain examples",
+          "Step 3: Gentle spinal adjustments with altitude considerations",
+          "Step 4: Custom rehab plan with Boulder-friendly exercises"
+        ],
+        "benefits": [
+          "Faster return to Boulder trails",
+          "Improved performance at elevation",
+          "Reduced re-injury risk",
+          "Movement education for local terrain"
+        ],
+        "faq": [
+          {
+            "question": "How does Boulder's altitude affect injury recovery?",
+            "answer": "At 5,430 feet, reduced oxygen slows tissue repair. We adjust treatment frequency and incorporate oxygenation techniques to compensate. Many patients see better results when we account for this unique factor."
+          },
+          {
+            "question": "Can you help with repetitive stress from rock climbing?",
+            "answer": "Absolutely. We treat many climbers from the Flatirons with specialized techniques for shoulder impingement and grip-related nerve issues. Our methods help prevent future injuries on Boulder's challenging routes."
+          }
+        ]
+      },
+      {
+        "slug": "prenatal-chiropractic",
+        "name": "Prenatal Chiropractic",
+        "shortDescription": "Gentle, pregnancy-safe adjustments for Boulder moms-to-be.",
+        "description": "Boulder's active expectant mothers deserve specialized prenatal care. Our Webster-certified practitioners provide safe, effective adjustments to accommodate changing bodies. We address common pregnancy discomforts exacerbated by Boulder's elevation and variable weather patterns.\n\nTreatments focus on pelvic alignment to prepare for birth, with special attention to posture changes from Boulder's steep neighborhood walks. Techniques are modified for each trimester, considering how altitude affects circulation. We coordinate with local midwives and OB/GYNs at Boulder Community Health for integrated care.\n\nMany patients report easier breathing at elevation after adjustments, along with reduced lower back pain from Boulder's hilly terrain. Our office provides pregnancy pillows designed for comfort during treatment.",
+        "process": [
+          "Step 1: Pregnancy history and current symptoms review",
+          "Step 2: Gentle assessment of spinal and pelvic alignment",
+          "Step 3: Customized adjustments using specialized prenatal tables",
+          "Step 4: Postural recommendations for Boulder living"
+        ],
+        "benefits": [
+          "Easier breathing at elevation",
+          "Reduced pregnancy-related back pain",
+          "Improved sleep quality",
+          "Better pelvic alignment for birth"
+        ],
+        "faq": [
+          {
+            "question": "Is chiropractic safe during pregnancy?",
+            "answer": "Yes, when performed by certified prenatal specialists. We use techniques specifically designed for expectant mothers, avoiding any pressure on the abdomen. Many Boulder OB/GYNs recommend our services."
+          },
+          {
+            "question": "How often should I get adjusted during pregnancy?",
+            "answer": "Typically every 2-4 weeks in the second trimester, increasing to weekly in the third trimester. We adjust based on your activity level and Boulder's terrain demands on your changing body."
+          }
+        ]
+      },
+      {
+        "slug": "pediatric-chiropractic",
+        "name": "Pediatric Chiropractic",
+        "shortDescription": "Gentle care for Boulder's growing children and teens.",
+        "description": "From crawling babies to competitive teen athletes, we provide age-appropriate chiropractic care for Boulder's youth. Our techniques are especially beneficial for children in Boulder's active families, addressing needs from babywearing on Chautauqua trails to teenage competitive skiing.\n\nFor infants, we focus on gentle adjustments to address birth trauma or torticollis. School-aged children receive care tailored to heavy backpack use in Boulder's hilly neighborhoods. Teen athletes get sport-specific evaluations, whether they're soccer players at Fairview High or Boulder Valley School District skiers.\n\nWe use pressure equivalent to testing a ripe avocado - safe and effective for developing bodies. Many parents report improvements in colic, sleep patterns, and recovery from playground falls at Boulder's numerous parks.",
+        "process": [
+          "Step 1: Complete developmental history review",
+          "Step 2: Gentle assessment using appropriate techniques",
+          "Step 3: Careful adjustments with light pressure",
+          "Step 4: Parent education for home care"
+        ],
+        "benefits": [
+          "Supports healthy nervous system development",
+          "Helps with altitude adjustment in newborns",
+          "Improves recovery from sports injuries",
+          "Addresses posture from heavy backpacks"
+        ],
+        "faq": [
+          {
+            "question": "At what age can children start chiropractic care?",
+            "answer": "We see patients as young as newborns. Many Boulder parents bring infants for checks after birth, especially following rapid deliveries at Boulder's high altitude which can cause spinal stress."
+          },
+          {
+            "question": "How does chiropractic help teen athletes?",
+            "answer": "We address growth plate concerns, uneven muscle development from single-sport focus, and injuries from Boulder's competitive sports scene. Proper alignment helps prevent overuse injuries common in young athletes."
+          }
+        ]
+      },
+      {
+        "slug": "auto-injury-recovery",
+        "name": "Auto Injury Recovery",
+        "shortDescription": "Comprehensive care for Boulder's commuters and mountain drivers.",
+        "description": "Boulder's mix of urban traffic and mountain roads leads to unique auto injury patterns. We specialize in treating whiplash from rear-end collisions on US 36, along with injuries sustained on winding Canyon Boulevard or icy Flagstaff Road.\n\nOur multidisciplinary approach begins with detailed analysis of your accident, including weather and road conditions. We assess how Boulder's elevation may exacerbate inflammation. Treatment combines chiropractic adjustments with therapeutic exercises to restore range of motion compromised by the collision.\n\nWe work closely with local physical therapists and coordinate with insurance companies familiar with Boulder's high accident rates. Many patients find relief from headaches caused by whiplash, especially when exacerbated by altitude-related dehydration.",
+        "process": [
+          "Step 1: Accident details and symptom review",
+          "Step 2: Comprehensive spinal and soft tissue evaluation",
+          "Step 3: Customized adjustment plan",
+          "Step 4: Coordination with local providers"
+        ],
+        "benefits": [
+          "Reduced pain from whiplash",
+          "Improved mobility after collisions",
+          "Headache relief",
+          "Faster return to driving"
+        ],
+        "faq": [
+          {
+            "question": "How soon after an accident should I seek care?",
+            "answer": "Ideally within 72 hours, even if you don't feel immediate pain. Many Boulder residents experience delayed symptoms due to adrenaline from mountain driving incidents. Early intervention prevents chronic issues."
+          },
+          {
+            "question": "Do you work with my auto insurance?",
+            "answer": "Yes, we're experienced with Colorado's PIP system and work with most major insurers. Boulder's unique driving conditions mean we're familiar with claims from mountain road incidents."
+          }
+        ]
+      },
+      {
+        "slug": "posture-correction",
+        "name": "Posture Correction",
+        "shortDescription": "Solutions for Boulder's tech workers and students.",
+        "description": "Between desk jobs in Boulder's tech scene and students hunched over books at CU, poor posture is prevalent in our community. Our posture correction program addresses the forward head position common among Boulder's workforce, especially those in Pearl Street offices or co-working spaces.\n\nWe analyze how your workspace setup may contribute to problems, considering Boulder's mix of standing desks and traditional office setups. Treatment includes spinal adjustments combined with exercises using resistance bands and foam rollers readily available at Boulder's many fitness stores.\n\nMany patients report relief from 'tech neck' after just a few sessions, along with improved breathing - especially important at our elevation. We also address posture challenges unique to Boulder, like looking down at phones while navigating uneven sidewalks.",
+        "process": [
+          "Step 1: Posture analysis with digital imaging",
+          "Step 2: Spinal assessment for misalignments",
+          "Step 3: Customized adjustment series",
+          "Step 4: Ergonomic recommendations for Boulder workspaces"
+        ],
+        "benefits": [
+          "Reduced neck and back pain",
+          "Improved breathing capacity",
+          "Better workstation ergonomics",
+          "Increased energy throughout the day"
+        ],
+        "faq": [
+          {
+            "question": "How many sessions will I need to see improvement?",
+            "answer": "Most Boulder patients notice changes in 4-6 weeks with weekly visits. Maintenance depends on your job demands and commitment to at-home exercises between sessions."
+          },
+          {
+            "question": "Can you help with posture issues from cycling?",
+            "answer": "Absolutely. Boulder's cycling culture leads to unique postural adaptations. We address rounded shoulders from aggressive road bike positioning and imbalances from frequent hill climbing."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mark T.",
+        "rating": 5,
+        "service": "Sports Injury Recovery",
+        "text": "After tweaking my knee on the Royal Arch trail, Dr. Hart had me back on the trail in half the expected time. She understood exactly how Boulder's terrain impacts recovery and tailored my treatment accordingly. The elevation-specific advice made a real difference.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Prenatal Chiropractic",
+        "text": "As a Boulder midwife, I refer all my clients here. They know exactly how to work with pregnant bodies at altitude. My own pregnancies were so much more comfortable thanks to their care - especially with all the hill walking in our neighborhood.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Javier R.",
+        "rating": 5,
+        "service": "Auto Injury Recovery",
+        "text": "When I got rear-ended on Canyon Boulevard during that icy spell last winter, Legacy Chiropractor got me moving again. They understood exactly how Boulder's winter driving conditions affect injuries. The team even helped navigate my insurance claim.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Pediatric Chiropractic",
+        "text": "My 8-year-old had chronic ear infections until we started coming here. The gentle adjustments helped his drainage at altitude. Now he's able to keep up with his Boulder Junior Cycling team without issues.",
+        "date": "2025-02-18"
+      },
+      {
+        "name": "David P.",
+        "rating": 5,
+        "service": "Posture Correction",
+        "text": "Working at a Boulder tech startup destroyed my posture. After 6 weeks of treatment, I stand taller and breathe easier at this elevation. They even helped set up my home office in my Pearl Street apartment.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Emma S.",
+        "rating": 5,
+        "service": "Sports Injury Recovery",
+        "text": "As a competitive climber at the Boulder Rock Club, I rely on Legacy Chiropractor to keep me injury-free. They understand the specific demands of climbing at altitude and have helped me through several finger and shoulder issues.",
+        "date": "2025-04-02"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Boulder Chiropractor | Legacy Chiropractic Care",
+        "description": "Trusted chiropractic care in Boulder, CO. Specialized treatments for active lifestyles at altitude. Serving Boulder County since 2012."
+      },
+      "about": {
+        "title": "About Our Boulder Chiropractic Practice",
+        "description": "Learn about Legacy Chiropractor's commitment to Boulder's health with altitude-aware techniques and community-focused care."
+      },
+      "services": {
+        "title": "Chiropractic Services in Boulder, CO",
+        "description": "Specialized chiropractic treatments for Boulder residents, from sports injuries to prenatal care, all adapted for high elevation living."
+      },
+      "contact": {
+        "title": "Contact Boulder's Trusted Chiropractors",
+        "description": "Schedule your appointment with Legacy Chiropractor in Boulder. Convenient location serving all of Boulder County with personalized care."
+      },
+      "reviews": {
+        "title": "Boulder Chiropractor Reviews | Patient Stories",
+        "description": "Read real patient experiences with Legacy Chiropractor in Boulder, CO. See how we've helped active locals achieve better health."
+      },
+      "service-areas": {
+        "title": "Boulder Chiropractor Serving Nearby Communities",
+        "description": "Legacy Chiropractor provides chiropractic care to Boulder and surrounding Colorado communities with specialized high-altitude techniques."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "8"
+    },
+    "serviceAreas": [
+      {
+        "city": "Boulder",
+        "slug": "boulder-co",
+        "state": "CO",
+        "content": "Legacy Chiropractor is proud to serve the vibrant community of Boulder, where health and wellness are a way of life. Our expert chiropractic care helps residents stay active, whether they're hiking the Flatirons or cycling along Boulder Creek. We specialize in spinal adjustments, pain relief, and posture correction to keep you moving freely. In Boulder, we understand the importance of holistic health, and our treatments align with the city's active, nature-loving lifestyle.",
+        "localContext": "Boulder is known for its outdoor recreation, health-conscious culture, and thriving wellness community.",
+        "nearbyAreas": [
+          "Louisville",
+          "Superior",
+          "Lafayette"
+        ]
+      },
+      {
+        "city": "Louisville",
+        "slug": "louisville-co",
+        "state": "CO",
+        "content": "Residents of Louisville trust Legacy Chiropractor for personalized care that supports their active lifestyles. Whether you're recovering from an injury or seeking preventive care, our treatments are tailored to meet your needs. Louisville's family-friendly atmosphere makes it the perfect place for chiropractic care that keeps the whole community healthy.",
+        "localContext": "Louisville offers a small-town charm with easy access to Boulder's amenities and outdoor activities.",
+        "nearbyAreas": [
+          "Boulder",
+          "Lafayette",
+          "Superior"
+        ]
+      },
+      {
+        "city": "Superior",
+        "slug": "superior-co",
+        "state": "CO",
+        "content": "Legacy Chiropractor provides top-notch chiropractic services to Superior residents who value health and wellness. Our treatments help alleviate pain, improve mobility, and enhance overall well-being. Whether you're an athlete or simply looking to stay active, we're here to support your journey to better health.",
+        "localContext": "Superior is a growing community with a strong emphasis on outdoor recreation and family life.",
+        "nearbyAreas": [
+          "Boulder",
+          "Louisville",
+          "Broomfield"
+        ]
+      },
+      {
+        "city": "Lafayette",
+        "slug": "lafayette-co",
+        "state": "CO",
+        "content": "In Lafayette, Legacy Chiropractor is dedicated to helping residents achieve optimal spinal health. Our services include adjustments, soft tissue therapy, and wellness plans tailored to your lifestyle. Lafayette's tight-knit community benefits from our patient-centered approach to chiropractic care.",
+        "localContext": "Lafayette combines historic charm with modern amenities, making it a great place to live and thrive.",
+        "nearbyAreas": [
+          "Boulder",
+          "Louisville",
+          "Erie"
+        ]
+      },
+      {
+        "city": "Longmont",
+        "slug": "longmont-co",
+        "state": "CO",
+        "content": "Legacy Chiropractor is proud to serve Longmont with expert chiropractic care. Our treatments address back pain, neck discomfort, and mobility issues, helping residents stay active in this dynamic community. Longmont's blend of urban convenience and outdoor access makes chiropractic care a valuable part of a healthy lifestyle.",
+        "localContext": "Longmont offers a mix of cultural attractions, parks, and a growing wellness scene.",
+        "nearbyAreas": [
+          "Boulder",
+          "Lafayette",
+          "Frederick"
+        ]
+      },
+      {
+        "city": "Erie",
+        "slug": "erie-co",
+        "state": "CO",
+        "content": "Legacy Chiropractor provides compassionate care to Erie residents seeking relief from pain and improved function. Our treatments are designed to support an active lifestyle, whether you're enjoying Erie's trails or spending time with family. We're committed to helping you achieve lasting wellness.",
+        "localContext": "Erie is a fast-growing town with a strong sense of community and plenty of outdoor spaces.",
+        "nearbyAreas": [
+          "Lafayette",
+          "Longmont",
+          "Broomfield"
+        ]
+      },
+      {
+        "city": "Broomfield",
+        "slug": "broomfield-co",
+        "state": "CO",
+        "content": "In Broomfield, Legacy Chiropractor offers expert chiropractic care to keep residents pain-free and active. Our services include spinal adjustments, rehabilitative exercises, and wellness advice tailored to your needs. Broomfield's central location makes it easy for residents to access our top-tier care.",
+        "localContext": "Broomfield is a hub for business and recreation, with easy access to both Denver and Boulder.",
+        "nearbyAreas": [
+          "Superior",
+          "Westminster",
+          "Louisville"
+        ]
+      },
+      {
+        "city": "Nederland",
+        "slug": "nederland-co",
+        "state": "CO",
+        "content": "Legacy Chiropractor extends its services to Nederland, helping residents maintain spinal health in this mountain community. Our treatments are ideal for those who enjoy outdoor activities like hiking and skiing. We provide personalized care to keep you active and pain-free.",
+        "localContext": "Nederland is a small mountain town known for its rugged beauty and adventurous spirit.",
+        "nearbyAreas": [
+          "Boulder",
+          "Black Hawk",
+          "Ward"
+        ]
+      },
+      {
+        "city": "Golden",
+        "slug": "golden-co",
+        "state": "CO",
+        "content": "Legacy Chiropractor serves Golden with expert care tailored to an active, outdoor-loving community. Our treatments help alleviate pain and improve mobility, whether you're biking, climbing, or exploring Clear Creek. Golden's residents trust us for reliable, effective chiropractic care.",
+        "localContext": "Golden blends historic charm with outdoor recreation, making it a unique place to live and visit.",
+        "nearbyAreas": [
+          "Lakewood",
+          "Arvada",
+          "Boulder"
+        ]
+      },
+      {
+        "city": "Arvada",
+        "slug": "arvada-co",
+        "state": "CO",
+        "content": "Legacy Chiropractor provides high-quality care to Arvada residents seeking relief and improved wellness. Our services include spinal adjustments, massage therapy, and lifestyle advice to support your health goals. Arvada's mix of urban and suburban living makes our care a perfect fit.",
+        "localContext": "Arvada offers a blend of historic districts, parks, and modern conveniences.",
+        "nearbyAreas": [
+          "Westminster",
+          "Golden",
+          "Broomfield"
+        ]
+      },
+      {
+        "city": "Westminster",
+        "slug": "westminster-co",
+        "state": "CO",
+        "content": "Legacy Chiropractor is dedicated to helping Westminster residents achieve better spinal health and overall wellness. Our treatments address pain, improve posture, and enhance mobility. Westminster's thriving community benefits from our patient-focused approach to chiropractic care.",
+        "localContext": "Westminster is a vibrant city with easy access to both Denver and Boulder.",
+        "nearbyAreas": [
+          "Broomfield",
+          "Arvada",
+          "Thornton"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "prenatal-chiropractic": "/images/service-prenatal-chiropractic.webp",
+      "pediatric-chiropractic": "/images/service-pediatric-chiropractic.webp",
+      "auto-injury-recovery": "/images/service-auto-injury-recovery.webp",
+      "posture-correction": "/images/service-posture-correction.webp",
+      "sports-injury-recovery": "/images/service-sports-injury-recovery.webp"
+    },
+    "servicesResponsive": {
+      "prenatal-chiropractic": {
+        "src": "/images/service-prenatal-chiropractic.webp",
+        "srcset": "/images/service-prenatal-chiropractic-400w.webp 400w, /images/service-prenatal-chiropractic-800w.webp 800w, /images/service-prenatal-chiropractic-1200w.webp 1200w, /images/service-prenatal-chiropractic.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pediatric-chiropractic": {
+        "src": "/images/service-pediatric-chiropractic.webp",
+        "srcset": "/images/service-pediatric-chiropractic-400w.webp 400w, /images/service-pediatric-chiropractic-800w.webp 800w, /images/service-pediatric-chiropractic-1200w.webp 1200w, /images/service-pediatric-chiropractic.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "auto-injury-recovery": {
+        "src": "/images/service-auto-injury-recovery.webp",
+        "srcset": "/images/service-auto-injury-recovery-400w.webp 400w, /images/service-auto-injury-recovery-800w.webp 800w, /images/service-auto-injury-recovery-1200w.webp 1200w, /images/service-auto-injury-recovery.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "posture-correction": {
+        "src": "/images/service-posture-correction.webp",
+        "srcset": "/images/service-posture-correction-400w.webp 400w, /images/service-posture-correction-800w.webp 800w, /images/service-posture-correction-1200w.webp 1200w, /images/service-posture-correction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sports-injury-recovery": {
+        "src": "/images/service-sports-injury-recovery.webp",
+        "srcset": "/images/service-sports-injury-recovery-400w.webp 400w, /images/service-sports-injury-recovery-800w.webp 800w, /images/service-sports-injury-recovery-1200w.webp 1200w, /images/service-sports-injury-recovery.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
